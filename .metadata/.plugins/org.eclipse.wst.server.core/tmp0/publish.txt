@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Dec 06 23:26:32 IST 2020
+org.eclipse.jst.jee.server\:/binary\:/home/leeaa/.m2/repository/org/springframework/spring-web/5.3.1/spring-web-5.3.1.jar=WEB-INF/lib/spring-web-5.3.1.jar
+org.eclipse.jst.j2ee.server\:/binary\:/home/leeaa/.m2/repository/org/springframework/spring-web/5.3.1/spring-web-5.3.1.jar=WEB-INF/lib/spring-web-5.3.1.jar

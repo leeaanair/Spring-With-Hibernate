@@ -1,0 +1,26 @@
+package com.udemy.spring.spring4;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class HockeyCoach implements Coach {
+
+	
+	public String getAHockeyStick(FortuneService fortuneService){
+		
+		return fortuneService.getFortune();
+	}
+	
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

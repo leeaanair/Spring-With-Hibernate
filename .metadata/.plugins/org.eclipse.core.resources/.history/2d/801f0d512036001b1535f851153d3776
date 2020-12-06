@@ -1,0 +1,18 @@
+package com.udemy.spring.spring5;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.udemy.spring.spring4")
+public class SportConfig {
+	
+	//define bean for our sad fortune Service
+	
+	
+	// define bean for our swimcoach and inject dependency into it
+	
+	
+	//
+
+}

@@ -1,0 +1,6 @@
+package com.udemy.spring.spring6;
+
+@Controller
+public class HomeController {
+
+}

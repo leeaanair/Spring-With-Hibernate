@@ -1,0 +1,14 @@
+package com.udemy.spring.spring4;
+
+import org.springframework.stereotype.Component;
+
+@Component("CoachUkai")		//this is the bean id
+public class Volleyball implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Practice setting";
+	}
+
+}

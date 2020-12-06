@@ -1,0 +1,8 @@
+package com.udemy.spring.spring2;
+
+public class Snippet {
+	public static void main(String[] args) {
+		applicationContext.xml
+	}
+}
+

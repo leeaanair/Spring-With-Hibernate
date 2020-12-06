@@ -1,0 +1,13 @@
+package com.udemy.spring.spring4;
+
+public class ScopeApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		
+
+	}
+
+}

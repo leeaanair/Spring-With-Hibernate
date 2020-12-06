@@ -1,0 +1,29 @@
+package com.udemy.spring.spring4;
+
+import org.springframework.stereotype.Component;
+
+@Component("CoachUkai")		//this is the bean id
+public class Volleyball implements Coach {
+	
+	FortuneService fortuneService;
+	
+	
+
+	public Volleyball(FortuneService fortuneService) {
+		super();
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Practice setting";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

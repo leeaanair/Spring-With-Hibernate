@@ -1,0 +1,12 @@
+package com.udemy.spring.spring2;
+
+public class SetterApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassPathXmlApplicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+
+	}
+
+}

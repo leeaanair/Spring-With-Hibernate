@@ -1,0 +1,17 @@
+package com.udemy.spring.spring5;
+
+public class SwimCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Warm Up for 10 mins";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

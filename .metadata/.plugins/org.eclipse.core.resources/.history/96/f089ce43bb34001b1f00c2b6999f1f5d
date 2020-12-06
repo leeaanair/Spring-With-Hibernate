@@ -1,0 +1,18 @@
+package com.udemy.spring.spring1;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	//create object
+    	BaseBallCoach baseBallCoach = new BaseBallCoach();
+    	
+    	//use the object
+    	System.out.println(baseBallCoach.getDailyWorkout());
+        
+    }
+}

@@ -1,0 +1,6 @@
+package com.udemy.spring.spring5;
+
+@ComponentScan("com.udemy.spring.spring5")
+public class SportConfig1 {
+
+}

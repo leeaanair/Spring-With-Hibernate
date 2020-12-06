@@ -1,0 +1,12 @@
+package com.udemy.spring.spring4;
+
+public interface Coach {
+	
+	FortuneService fortuneService;
+	
+	
+	
+	public String getDailyWorkout();
+	
+
+}
