@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Welcome ${param.studentName}</title>
+<title>Level of Request Mapping</title>
 </head>
 <body>
-	Hello! ${message}				<!--  same tag in addAttribute -->
+	
+	This is  from child method 
+
 </body>
 </html>
