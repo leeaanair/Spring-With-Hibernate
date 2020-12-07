@@ -16,5 +16,7 @@ public class App
     	System.out.println(coach.getDailyWorkout());
     	System.out.println(coach.getDailyFortune());
     	System.out.println(coach.getDailyTreat());
+    	
+    	context.close();
     }
 }

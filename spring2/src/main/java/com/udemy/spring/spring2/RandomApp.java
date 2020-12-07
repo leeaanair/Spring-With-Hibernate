@@ -12,6 +12,9 @@ public class RandomApp {
 		Coach coach = context.getBean("myCoach5", Coach.class);
 		
 		System.out.println(coach.getDailyFortune());
+		
+		
+		context.close();
 
 
 	}
